@@ -1,0 +1,220 @@
+Script started on 2022-05-05 23:03:45+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="129" LINES="18"]
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mpart12-containers-applications[1m[37m][0m[36m$[0m exitsudo docker start stoic_booth[C stoic_booth- stoic_boothi stoic_booth[C stoic_booth
+[?2004l
+
+[K]0;root@b74799f86d67: /root@b74799f86d67:/# apt-get update
+[?2004l
+
+0% [Working]
+            
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+
+0% [Connecting to archive.ubuntu.com (91.189.91.38)] [1 InRelease 4009 B/110 kB 4%]
+                                                                                   
+0% [Waiting for headers]
+                        
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+
+0% [Waiting for headers]
+                        
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [109 kB]
+
+0% [3 InRelease 2560 B/109 kB 2%]
+0% [3 InRelease 15.4 kB/109 kB 14%]
+0% [3 InRelease 61.1 kB/109 kB 56%]
+                                   
+0% [Working]
+            
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+
+0% [Working]
+0% [Working]
+            
+Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [77.1 kB]
+
+0% [5 Packages 12.6 kB/77.1 kB 16%]
+                                   
+0% [Working]
+71% [Working]
+71% [5 Packages store 0 B] [Waiting for headers]
+                                                
+71% [Waiting for headers]
+                         
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [96.3 kB]
+
+71% [6 Packages 1220 B/96.3 kB 1%]
+                                  
+88% [Working]
+             
+Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [61.7 kB]
+
+88% [7 Packages 0 B/61.7 kB 0%]
+89% [6 Packages store 0 B] [7 Packages 4651 B/61.7 kB 8%]
+                                                         
+94% [7 Packages 33.2 kB/61.7 kB 54%]
+                                    
+99% [Working]
+99% [7 Packages store 0 B]
+                          
+100% [Working]
+              
+Fetched 455 kB in 1s (331 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 34%
+
+Reading package lists... 93%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+[?2004h]0;root@b74799f86d67: /root@b74799f86d67:/# [7mapt-get -y install nano[27mapt-get -y install nano
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 55%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 53%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+nano is already the newest version (6.2-1).
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+[?2004h]0;root@b74799f86d67: /root@b74799f86d67:/# cd usr/src
+[?2004l
+[?2004h]0;root@b74799f86d67: /usr/srcroot@b74799f86d67:/usr/src# ls
+[?2004l
+[0m[01;34mapp[0m
+[?2004h]0;root@b74799f86d67: /usr/srcroot@b74799f86d67:/usr/src# cd app
+[?2004l
+[?2004h]0;root@b74799f86d67: /usr/src/approot@b74799f86d67:/usr/src/app# ls
+[?2004l
+index.js
+[?2004h]0;root@b74799f86d67: /usr/src/approot@b74799f86d67:/usr/src/app# nanp o index.js 
+[?2004l
+[?2004h[?1049h[22;0;0t[1;18r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[16;58H(B[0;7m[ Reading... ](B[m[16;57H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [48bindex.js [56b [1;128H(B[m
+[17d(B[0;7m^G(B[m Help[17;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[17;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[17;113H(B[0;7mM-A(B[m Set Mark
+[18d(B[0;7m^X(B[m Exit[18;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[18;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[18;113H(B[0;7mM-6(B[m Copy
+[2d[?12l[?25h[?25l[1;73H(B[0;7m*[128G(B[m[?12l[?25h
+[2dc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25h([?25l[?12l[?25h'[?25l[?12l[?25hH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l
+[16d[K[?12l[?25h[2;19H W[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h[2;13H(B[0;1m[35m'Hello World'[39m(B[m[?25l[?12l[?25h)[?25l[17;17H[16X[17;33H(B[0;7mM-D(B[m DOS Format [7b[17;65H(B[0;7mM-A(B[m Append[81G [10b[99G(B[0;7mB(B[m Backup File[K[18;2H(B[0;7mC(B[m Cancel[17G[16X[18;33H(B[0;7mM-M(B[m Mac Format [9b[18;65H(B[0;7mM-P(B[m Prepend[21X[18;97H(B[0;7m^T(B[m Browse[K
+[16d(B[0;7mFile Name to Write: index.js [99b [16;29H(B[m[?12l[?25h[?25l[16;57H[1K (B[0;7m[ Writing... ](B[m[K[1;73H(B[0;7m [128G(B[m[16;57H(B[0;7m[ Wrote 1 line ](B[m[17;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[17;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location[99G(B[0;7mU(B[m Undo [7b(B[0;7mM-A(B[m Set Mark[18;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste[18;65H(B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo [113G(B[0;7mM-6(B[m Copy[?12l[?25h[2;27H[?25l
+[16d[J[18d[?12l[?25h[18;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;root@b74799f86d67: /usr/src/approot@b74799f86d67:/usr/src/app# cat index.js 
+[?2004l
+console.log('Hello World')
+[?2004h]0;root@b74799f86d67: /usr/src/approot@b74799f86d67:/usr/src/app# exit
+[?2004l
+exit
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mpart12-containers-applications[1m[37m][0m[36m$[0m exit
+[?2004l
+exit
+
+Script done on 2022-05-05 23:06:14+02:00 [COMMAND_EXIT_CODE="0"]
