@@ -1,0 +1,142 @@
+Script started on 2022-05-07 22:59:52+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="115" LINES="18"]
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications/todo-app/todo-backend[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m exitsudo docker-compose -f docker-compose.dev.yml up
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo docker-compose -f docker-compose.dev.yml up
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[2Plsscriptudo docker-compose -f docker-compose.dev.yml down --volumes
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnpm run dev[KMONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A
+[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m npm run dev[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo docker-compose -f docker-compose.dev.yml down --volumes
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccript[K[4Plsexitsudo docker-compose -f docker-compose.dev.yml up -d
+[?2004l
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Network todo-backend_default  Creating                                                                     0.1s
+[0m[?25h[33mWARN[0m[0000] Found orphan containers ([todo-backend-app-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up. 
+[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+[34m ⠿ Network todo-backend_default    Created                                                                    0.1s
+[0m[37m ⠋ Container todo-backend-mongo-1  Creating                                                                   0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                    0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                   0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                    0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                   0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                    0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                   0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                    0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                   0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                    0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                   0.6s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                    0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                   0.7s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Network todo-backend_default    Created                                                                    0.1s
+[0m[34m ⠿ Container todo-backend-mongo-1  Started                                                                    0.8s
+[0m[?25h]0;boskoa@archboskoa:~/Downloads/part12-containers-applications/todo-app/todo-backend[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m sudo docker conatiner ls
+[?2004l
+docker: 'conatiner' is not a docker command.
+See 'docker --help'
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications/todo-app/todo-backend[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m sudo docker conatiner ls[1P[1P[1@t[1@a
+[?2004l
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+7c3782f5e9ad   mongo:4.4.13   "docker-entrypoint.s…"   52 seconds ago   Up 51 seconds   0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+8a71b80c2b30   nginx          "/docker-entrypoint.…"   13 minutes ago   Up 13 minutes   0.0.0.0:8080->80/tcp, :::8080->80/tcp         pedantic_swirles
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications/todo-app/todo-backend[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m sudo docker container ls[K[Kkill8a
+[?2004l
+
+Usage:  docker container COMMAND
+
+Manage containers
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  inspect     Display detailed information on one or more containers
+  kill        Kill one or more running containers
+  logs        Fetch the logs of a container
+  ls          List containers
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  prune       Remove all stopped containers
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  run         Run a command in a new container
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker container COMMAND --help' for more information on a command.
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications/todo-app/todo-backend[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m sudo docker container kill8a 8a
+[?2004l
+8a
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications/todo-app/todo-backend[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m sudo docke [Kr exec -it 7c bash [K
+[?2004l
+]0;root@7c3782f5e9ad: /root@7c3782f5e9ad:/# mongo -u root -p example
+MongoDB shell version v4.4.13
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("25f46db7-2425-48bd-8831-073ac851f4bf") }
+MongoDB server version: 4.4.13
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	https://docs.mongodb.com/
+Questions? Try the MongoDB Developer Community Forums
+	https://community.mongodb.com
+---
+The server generated these startup warnings when booting: 
+        2022-05-07T21:00:11.544+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> show dbs[3G[Jshow dbs[11G
+admin         0.000GB
+config        0.000GB
+local         0.000GB
+the_database  0.000GB
+> use the_database[3G[Juse the_database[19G
+switched to db the_database
+> show collections[3G[Jshow collections[19G
+todos
+> db.todos.find({})[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("6276c1787bfdd8e783150273"), "text" : "Write new code", "done" : true }
+{ "_id" : ObjectId("6276c1787bfdd8e783150274"), "text" : "Learn about containers", "done" : false }
+> db.todos.insertOne({ text: "Increase the number of tools in my toolbelt", done: false })[3G[Jdb.todos.insertOne({ text: "Increase the number of tools in my toolbelt", done: false })[91G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("6276df539a8919d4a4cf6434")
+}
+> [3G[Jdb.todos.insertOne({ text: "Increase the number of tools in my toolbelt", done: false })[91G[3G[Jdb.todos.find({})[20G[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("6276c1787bfdd8e783150273"), "text" : "Write new code", "done" : true }
+{ "_id" : ObjectId("6276c1787bfdd8e783150274"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("6276df539a8919d4a4cf6434"), "text" : "Increase the number of tools in my toolbelt", "done" : false }
+> exit[3G[Jexit[7G
+bye
+]0;root@7c3782f5e9ad: /root@7c3782f5e9ad:/# exit
+exit
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications/todo-app/todo-backend[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m exit
+[?2004l
+exit
+
+Script done on 2022-05-07 23:07:36+02:00 [COMMAND_EXIT_CODE="0"]
