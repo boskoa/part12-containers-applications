@@ -1,0 +1,123 @@
+Script started on 2022-05-08 00:44:04+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="115" LINES="8"]
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications/todo-app/todo-backend[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m exitsudo docker exec -it 17 bash
+[?2004l
+[?2004hroot@175ac4643b7b:/data# 
+[Kroot@175ac4643b7b:/data# exitredis-cli[5Pexitredis-cli
+[?2004l
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> SET count 9001 EX 240[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-ti[0m
+[37C
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> SET count 9001 EX 240[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-ti[0m
+[37C
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> KEYS *[0;90;49m [0m
+[22C
+[0K127.0.0.1:6379> exit
+[20C
+[0K127.0.0.1:6379> KEYS *[0;90;49m [0m
+[22C
+[0K127.0.0.1:6379> KEYS *
+[22C
+1) "count"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> KEYS *[0;90;49m [0m
+[22C
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> SET count 9001 EX 240[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-ti[0m
+[37C
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> GET count
+[25C
+"9001"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> KEYS *[0;90;49m [0m
+[22C
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> SET count 9001 EX 240[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-ti[0m
+[37C
+[0K127.0.0.1:6379> SET count 9001 EX 240
+[37C
+OK
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> SET count 9001 EX 240[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-ti[0m
+[37C
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> KEYS *[0;90;49m [0m
+[22C
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> GET count
+[25C
+"9001"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> GET count
+[25C
+"9002"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> D
+[17C
+[0K127.0.0.1:6379> DE
+[18C
+[0K127.0.0.1:6379> DEL[0;90;49m key [key ...][0m
+[19C
+[0K127.0.0.1:6379> DEL [0;90;49mkey [key ...][0m
+[20C
+[0K127.0.0.1:6379> DEL c[0;90;49m [key ...][0m
+[21C
+[0K127.0.0.1:6379> DEL co[0;90;49m [key ...][0m
+[22C
+[0K127.0.0.1:6379> DEL cou[0;90;49m [key ...][0m
+[23C
+[0K127.0.0.1:6379> DEL coun[0;90;49m [key ...][0m
+[24C
+[0K127.0.0.1:6379> DEL count[0;90;49m [key ...][0m
+[25C
+[0K127.0.0.1:6379> DEL count
+[25C
+(integer) 1
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> DEL count[0;90;49m [key ...][0m
+[25C
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> GET count
+[25C
+(nil)
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> GET count[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> GET count
+[25C
+"1"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> e
+[17C
+[0K127.0.0.1:6379> ex
+[18C
+[0K127.0.0.1:6379> exi
+[19C
+[0K127.0.0.1:6379> exit
+[20C
+[0K127.0.0.1:6379> exit
+[20C
+[?2004hroot@175ac4643b7b:/data# exit
+[?2004l
+exit
+]0;boskoa@archboskoa:~/Downloads/part12-containers-applications/todo-app/todo-backend[?2004h[1m[37m[[1m[36mboskoa@archboskoa [1m[33mtodo-backend[1m[37m][0m[36m$[0m exit
+[?2004l
+exit
+
+Script done on 2022-05-08 00:50:14+02:00 [COMMAND_EXIT_CODE="0"]
