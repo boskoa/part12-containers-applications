@@ -14,6 +14,7 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
     <>
       {todos.map(todo => {
         return <Todo
+          key={todo._id || Math.floor(Math.random() * 1000)}
           todo={todo}
           onClickComplete={onClickComplete}
           onClickDelete={onClickDelete}
