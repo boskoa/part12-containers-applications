@@ -4,8 +4,6 @@ WORKDIR usr/src/app
 
 COPY --chown=node:node . .
 
-ENV REACT_APP_BACKEND_URL=todo-backend:*
-
 RUN npm ci
 
 RUN CI=true npm test
