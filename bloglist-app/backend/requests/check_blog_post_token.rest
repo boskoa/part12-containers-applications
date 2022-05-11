@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlByb2JhbiIsImlkIjoiNjFlODYxZGQ3YjkyNTEwYTBmNWJmODQ2IiwiaWF0IjoxNjQyNjE5NjE2LCJleHAiOjE2NDI2MjMyMTZ9.WPvQZzF2Mj8oMSWdOsJ5Snlw-9F8QWVky7gGvPuEosY
+
+{
+    "title": "bezveze",
+    "author": "Prvi Korisnik",
+    "url": "https://www.example.com/",
+    "likes": 25
+}

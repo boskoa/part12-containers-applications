@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/61e862fb7b92510a0f5bf86a
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlByb2JhbiIsImlkIjoiNjFlODYxZGQ3YjkyNTEwYTBmNWJmODQ2IiwiaWF0IjoxNjQyNjE5NjE2LCJleHAiOjE2NDI2MjMyMTZ9.WPvQZzF2Mj8oMSWdOsJ5Snlw-9F8QWVky7gGvPuEosY
+
+{
+    "title": "5 Big Web Design Predictions for 2022",
+    "author": "Ben Moss",
+    "url": "https://www.webdesignerdepot.com/2022/01/5-big-web-design-predictions-for-2022/",
+    "likes": 0
+}
