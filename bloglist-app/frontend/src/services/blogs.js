@@ -2,7 +2,7 @@
 import axios from 'axios'
 require('dotenv').config()
 
-const baseUrl = `${process.env.REACT_APP_BACKEND_URL}/api/blogs`
+const baseUrl = `${process.env.REACT_APP_BACKEND_URL || ''}/api/blogs`
 
 let token = null
 
